@@ -8,7 +8,7 @@ const containerStyle = {
 };
 
 const Maps = ({center}) => {
-    const [map, setMap] = React.useState(null)
+    // const [map, setMap] = React.useState(null)
     const mapRef=React.useRef(undefined)
 
 // eslint-disable-next-line react-hooks/rules-of-hooks
