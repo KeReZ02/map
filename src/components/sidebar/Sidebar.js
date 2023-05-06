@@ -9,15 +9,11 @@ import {BsFillHandThumbsUpFill, BsHandThumbsDownFill} from "react-icons/bs";
 // eslint-disable-next-line react-hooks/rules-of-hooks
 const Sidebar = () => {
     const [open, setOpen] = useState(true);
-    const Menus = [{title: "Dashboard", src: "Chart_fill"}, {title: "Inbox", src: "Chat"}, {
-        title: "Accounts", src: "User", gap: true
-    }, {title: "Schedule ", src: "Calendar"}, {title: "Search", src: "Search"}, {
-        title: "Analytics", src: "Chart"
-    }, {title: "Files ", src: "Folder", gap: true}, {title: "Setting", src: "Setting"},];
+    const Menus = [ {title: "Inbox", src: "Chat"}, {title: "Files ", src: "Folder", gap: true}, {title: "Setting", src: "Setting"},];
 
-    return (<div className="flex absolute left-0 top-0">
+    return (<div className="flex absolute left-0 top-0 h-full">
         <div
-            className={` ${open ? "w-96" : "w-20 "} bg-green-700 h-screen p-5  pt-8 relative duration-300 right-0`}>
+            className={` ${open ? "w-96" : "w-0 "} bg-green-700 h-full p-5  pt-8 relative duration-300 right-0`}>
             <FaArrowCircleLeft
                 className={`absolute cursor-pointer -right-7 top-9 w-7  rounded-full text-green-800 w-8 h-8  ${!open && "rotate-180"}`}
                 onClick={() => setOpen(!open)}/>
