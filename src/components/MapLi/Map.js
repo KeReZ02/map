@@ -12,11 +12,10 @@ export default function Home() {
 }
 
 function MapLi() {
-    const center = useMemo(() => ({ lat: 44, lng: -80 }), []);
-
+    const center = useMemo(() => ({ lat: 42.876456, lng: 74.59519 }), []);
     return (
-        <GoogleMap zoom={10} center={center} mapContainerClassName="container px-8">
-            <Marker position={center} />
+        <GoogleMap zoom={12} center={center} mapContainerClassName="container px-8">
+
         </GoogleMap>
     );
 }

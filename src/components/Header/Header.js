@@ -5,7 +5,7 @@ import {NavLink} from "react-router-dom";
 const Header = () => {
     return (
         <div>
-            <header className="header bg-white flex bg-fixed  px-16 justify-between item-center shadow-2xl shadow-green-700 ">
+            <header className=" header bg-white flex bg-fixed  px-16 justify-between item-center shadow-2xl shadow-green-700 ">
                 <NavLink to="/">
                     <div className="logo flex justify-start items-center ">
                         <img src={logo} alt="" className="w-16 h-16"/>
