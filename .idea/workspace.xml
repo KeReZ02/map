@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97079761-ba99-4a2d-a4a2-6afe2063fc07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/FormInput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FormInput/FormInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Registration/Registration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/road.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/road2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/road3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/registration.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Maps/Maps.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Maps/Maps.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Maps/Maps.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Maps/Maps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/map/Map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -57,6 +59,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="extract.css.actions.ExtractCSSConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -89,6 +92,8 @@
       <workItem from="1683257815563" duration="7244000" />
       <workItem from="1683266400349" duration="365000" />
       <workItem from="1683274091553" duration="15380000" />
+      <workItem from="1683302708858" duration="12223000" />
+      <workItem from="1683331919398" duration="4371000" />
     </task>
     <servers />
   </component>

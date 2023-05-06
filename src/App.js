@@ -7,6 +7,8 @@ import Maps from "./components/Maps/Maps";
 import {Routes,Route} from "react-router-dom";
 import Registration from "./components/Registration/Registration";
 import { NavLink } from "react-router-dom";
+import Home from "./components/Home/Home";
+import Header from "./components/Header/Header";
 const API_KEY = process.env.REACT_APP_API_KEY
 console.log(API_KEY)
 const defaultCenter = {
@@ -23,22 +25,14 @@ function App() {
     })
   return (
     <div className="App">
-        <div className="btn flex justify-end py-4 bg-white">
-            <button className=" bg-green-700 text-white rounded-3xl border-white w-32 h-12 mx-8">Лидеры</button>
-            <button className=" bg-green-700 text-white rounded-3xl border-white w-32 h-12 mx-8">О проекте</button>
-<NavLink to="/regis">
-    <button className=" bg-green-700 text-white rounded-3xl border-white w-32 h-12 mx-8">Регистрация</button>
-</NavLink>
-        </div>
-<Sidebar/>
-        <Map/>
-        { isLoaded ? <Maps center={defaultCenter}/>:<h2>Loading...</h2>}
 
+        { isLoaded ? <Maps center={defaultCenter}/>:<h2>Loading...</h2>}
+<Header/>
 
         <Routes>
-            <Route path="/regis" el={<Registration/>}>
-
-            </Route>
+            <Route path={"/"} element={ <Home/>}/>
+            <Route path={"/regis"} element={<Registration/>}/>
+            <Route path={"/toMap"} element={<Map/>}/>
         </Routes>
     </div>
   );

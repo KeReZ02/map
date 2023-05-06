@@ -8,14 +8,157 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #2c2d3a;
+
 }
 .burger{
-  background: #353746;
+
   width: 500px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.register {
+  padding: 50px 450px;
+  color:#000;
+}
+
+.register-page {
+}
+
+.register-page- {
+}
+
+.register-page-nav {
+  color:#000;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+}
+
+.register-page-input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+
+}
+.btn-reg{
+  margin-left: 230px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.register-page-input-main {
+
+  Height :66px;
+  width: 591px;
+  border: #1b8102 1px solid;
+  border-radius: 10px;
+  display: flex;
+  padding: 0 30px;
+  align-items: center;
+
+}
+.react-tel-input .form-control {
+  width: 589px;
+  height: 65px;
+  color: #146c00;
+  padding: 0 46px;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: capitalize;
+  background: transparent;
+  border-radius: 10px;;
+  border: none;
+}
+.react-tel-input .flag-dropdown  {
+  background: transparent;
+  border: none;
+}
+.react-tel-input .flag-dropdown.open .selected-flag {
+  background: transparent;
+}
+.react-tel-input .selected-flag:hover {
+  background: transparent;
+}
+.react-tel-input .selected-flag {
+  padding: 0 0 0 15px;
+}
+.react-tel-input .country-list {
+  background: rgb(27, 41, 89);
+}
+.react-tel-input .country-list .country:hover {
+  background-color: #000000;
+}
+.register-page-input-main-span {
+
+  font-size: 16px;
+  font-weight: 200;
+  color: #146c00;
+  margin: 30px 0 0 0 ;
+  padding: 0 3px;
+}
+
+.register-page-input-main-icon {
+  margin: 5px 0 0 -10px;
+  color: #146c00;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.register-page-input-main-p {
+  color: #146c00;
+}
+
+.register-page-input-main-text {
+  color: #146c00;
+  font-weight: 400;
+  font-size: 20px;
+}
+input{
+  margin-left: 10px;
+  width: 80%;
+  font-weight: 200;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: none;
+  color: #146c00;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+input::placeholder{
+  margin-left: 10px;
+  width: 80%;
+  font-weight: 200;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: none;
+  color: #146c00;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.register-page-input-main-see {
+  color: rgba(120, 125, 134, 0.47);
+//margin-right: -10;
+
+  right: 20px;
+
+  font-size: 20px;
+}
+
+.register-page-input-main-error {
+  margin-top: 20px;
+  width: 590px;
+  height:2px;
+  background: rgba(255, 255, 255, 0.11);
+}
+.register-page-input-main-error-pas{
+  transition: 0.2s;
 }
